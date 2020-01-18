@@ -26,24 +26,26 @@ soup = BeautifulSoup(webpage, 'html.parser')
 html = soup.prettify('utf-8')
 song_json = {}
 song_json['Lyrics'] = []
-song_json['Comments'] = []
+# song_json['Comments'] = []
 
 # extract title of the song
 for title in soup.findAll('title'):
     song_json['Title'] = title.text.strip()
 
 # extract the release date of the song
-for span in soup.findAll('span', attrs = {'class':
-    'metadata_unit-info metadata_unit-info--text_only'}):
-        song_json['Release date'] = span.text.strip()
+# uncomment to scrape song metadata
+# for span in soup.findAll('span', attrs = {'class':
+#     'metadata_unit-info metadata_unit-info--text_only'}):
+#         song_json['Release date'] = span.text.strip()
 
 # extract the commments on the song
-for div in soup.findAll('div', attrs = {'class':
-    'rich_text_formatting'}):
-        comments = div.text.strip().split('\n')
-        for comment in comments:
-            if comment != '':
-                song_json['Comments'].append(comment)
+# uncomment to scrape song comments
+# for div in soup.findAll('div', attrs = {'class':
+#     'rich_text_formatting'}):
+#         comments = div.text.strip().split('\n')
+#         for comment in comments:
+#             if comment != '':
+#                 song_json['Comments'].append(comment)
 
 # extract the lyrics of the song
 for div in soup.findAll('div', attrs = {'class': 'lyrics'}):
