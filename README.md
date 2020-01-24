@@ -13,6 +13,6 @@ Generating song lyric mashups of Billie Eilish, Billie Holiday, Billy Joel, Bill
 
 
 ## Packages
-`BeautifulSoup`, `SpaCy`, `Tensorflow`, `Keras`, `Numpy`, `Pandas`
+`BeautifulSoup`, `SpaCy`, `Gensim`, `Tensorflow`, `Keras`, `Numpy`, `Pandas`
 
 <!-- Links to recordings of [two] of the Billie Project songs.-->
