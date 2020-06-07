@@ -91,7 +91,6 @@ dependencies:
   - tensorflow=1.13.1=mkl_py37h70c3834_0
   - tensorflow-base=1.13.1=mkl_py37h66b1bf0_0
   - tensorflow-estimator=1.13.0=py_0
-  - termcolor=1.1.0=py37_1
   - thinc=6.12.1=py37hebd9d1a_0
   - tk=8.6.8=ha441bb4_0
   - toolz=0.10.0=py_0
