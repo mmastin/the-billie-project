@@ -1,6 +1,6 @@
 # The Billie Project
 
-Generating song lyric mashups of Billie Eilish, Billy Joel, Billie Holiday, Billy Idol, Billy Ray Cyrus, and other Billy and Billie's (and even a Bill!) by webscraping publically available lyrics and training a LSTM Neural Network using Keras, Tensorflow, and AWS.
+Generating song lyric mashups of Billie Eilish, Billy Joel, Billie Holiday, Billy Idol, Billy Ray Cyrus, and other Billy and Billie's (and even a Bill!) by webscraping publically available lyrics and training a LSTM Neural Network using Keras, Tensorflow, and AWS SageMaker. 
 
 "There aren't a whole of notes to choose from, but there are a whole lot of words." - Jason Isbell
 
